@@ -11,6 +11,7 @@
 		4E8CAD5D267B90D900FA7F17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD5C267B90D900FA7F17 /* ContentView.swift */; };
 		4E8CAD5F267B90DB00FA7F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8CAD5E267B90DB00FA7F17 /* Assets.xcassets */; };
 		4E8CAD62267B90DB00FA7F17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8CAD61267B90DB00FA7F17 /* Preview Assets.xcassets */; };
+		4E8CAD6D267B965A00FA7F17 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD6C267B965A00FA7F17 /* FeedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4E8CAD5E267B90DB00FA7F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E8CAD61267B90DB00FA7F17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4E8CAD63267B90DB00FA7F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8CAD6C267B965A00FA7F17 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +54,10 @@
 		4E8CAD59267B90D900FA7F17 /* WickedTest */ = {
 			isa = PBXGroup;
 			children = (
+				4E8CAD6B267B962500FA7F17 /* Model */,
 				4E8CAD6A267B95E400FA7F17 /* ViewModels */,
-				4E8CAD69267B95E000FA7F17 /* Views */,
+				4E8CAD69267B95E000FA7F17 /* View */,
 				4E8CAD5A267B90D900FA7F17 /* WickedTestApp.swift */,
-				4E8CAD5C267B90D900FA7F17 /* ContentView.swift */,
 				4E8CAD5E267B90DB00FA7F17 /* Assets.xcassets */,
 				4E8CAD63267B90DB00FA7F17 /* Info.plist */,
 				4E8CAD60267B90DB00FA7F17 /* Preview Content */,
@@ -71,11 +73,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4E8CAD69267B95E000FA7F17 /* Views */ = {
+		4E8CAD69267B95E000FA7F17 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4E8CAD5C267B90D900FA7F17 /* ContentView.swift */,
+				4E8CAD6C267B965A00FA7F17 /* FeedView.swift */,
 			);
-			path = Views;
+			path = View;
 			sourceTree = "<group>";
 		};
 		4E8CAD6A267B95E400FA7F17 /* ViewModels */ = {
@@ -83,6 +87,13 @@
 			children = (
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4E8CAD6B267B962500FA7F17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E8CAD5D267B90D900FA7F17 /* ContentView.swift in Sources */,
+				4E8CAD6D267B965A00FA7F17 /* FeedView.swift in Sources */,
 				4E8CAD5B267B90D900FA7F17 /* WickedTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
