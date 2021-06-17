@@ -15,7 +15,7 @@ struct ConversationsView: View {
       ScrollView {
         VStack {
           ForEach(0..<20) { _ in
-            NavigationLink(destination: Text("Destination")) {
+            NavigationLink(destination: ChatView()) {
               ConversationCell()
             }
           }

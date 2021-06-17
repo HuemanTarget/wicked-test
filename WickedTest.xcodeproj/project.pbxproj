@@ -18,6 +18,8 @@
 		4E8CAD75267BAB7100FA7F17 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD74267BAB7100FA7F17 /* UserCell.swift */; };
 		4E8CAD78267BB02900FA7F17 /* ConversationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD77267BB02800FA7F17 /* ConversationsView.swift */; };
 		4E8CAD7A267BB03C00FA7F17 /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD79267BB03C00FA7F17 /* ConversationCell.swift */; };
+		4E8CAD7E267BB7E200FA7F17 /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD7D267BB7E200FA7F17 /* MessageInputView.swift */; };
+		4E8CAD80267BB88F00FA7F17 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD7F267BB88F00FA7F17 /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		4E8CAD74267BAB7100FA7F17 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		4E8CAD77267BB02800FA7F17 /* ConversationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsView.swift; sourceTree = "<group>"; };
 		4E8CAD79267BB03C00FA7F17 /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
+		4E8CAD7D267BB7E200FA7F17 /* MessageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
+		4E8CAD7F267BB88F00FA7F17 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 			children = (
 				4E8CAD77267BB02800FA7F17 /* ConversationsView.swift */,
 				4E8CAD79267BB03C00FA7F17 /* ConversationCell.swift */,
+				4E8CAD7D267BB7E200FA7F17 /* MessageInputView.swift */,
+				4E8CAD7F267BB88F00FA7F17 /* ChatView.swift */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -192,8 +198,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E8CAD71267BA74100FA7F17 /* SearchView.swift in Sources */,
+				4E8CAD7E267BB7E200FA7F17 /* MessageInputView.swift in Sources */,
 				4E8CAD5D267B90D900FA7F17 /* ContentView.swift in Sources */,
 				4E8CAD6D267B965A00FA7F17 /* FeedView.swift in Sources */,
+				4E8CAD80267BB88F00FA7F17 /* ChatView.swift in Sources */,
 				4E8CAD78267BB02900FA7F17 /* ConversationsView.swift in Sources */,
 				4E8CAD5B267B90D900FA7F17 /* WickedTestApp.swift in Sources */,
 				4E8CAD6F267B9A1900FA7F17 /* TweetCell.swift in Sources */,
