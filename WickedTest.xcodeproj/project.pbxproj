@@ -12,6 +12,7 @@
 		4E8CAD5F267B90DB00FA7F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8CAD5E267B90DB00FA7F17 /* Assets.xcassets */; };
 		4E8CAD62267B90DB00FA7F17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8CAD61267B90DB00FA7F17 /* Preview Assets.xcassets */; };
 		4E8CAD6D267B965A00FA7F17 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD6C267B965A00FA7F17 /* FeedView.swift */; };
+		4E8CAD6F267B9A1900FA7F17 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD6E267B9A1900FA7F17 /* TweetCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4E8CAD61267B90DB00FA7F17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4E8CAD63267B90DB00FA7F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E8CAD6C267B965A00FA7F17 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		4E8CAD6E267B9A1900FA7F17 /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			children = (
 				4E8CAD5C267B90D900FA7F17 /* ContentView.swift */,
 				4E8CAD6C267B965A00FA7F17 /* FeedView.swift */,
+				4E8CAD6E267B9A1900FA7F17 /* TweetCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				4E8CAD5D267B90D900FA7F17 /* ContentView.swift in Sources */,
 				4E8CAD6D267B965A00FA7F17 /* FeedView.swift in Sources */,
 				4E8CAD5B267B90D900FA7F17 /* WickedTestApp.swift in Sources */,
+				4E8CAD6F267B9A1900FA7F17 /* TweetCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
