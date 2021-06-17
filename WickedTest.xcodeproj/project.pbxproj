@@ -20,6 +20,7 @@
 		4E8CAD7A267BB03C00FA7F17 /* ConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD79267BB03C00FA7F17 /* ConversationCell.swift */; };
 		4E8CAD7E267BB7E200FA7F17 /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD7D267BB7E200FA7F17 /* MessageInputView.swift */; };
 		4E8CAD80267BB88F00FA7F17 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD7F267BB88F00FA7F17 /* ChatView.swift */; };
+		4E8CAD82267BB9C500FA7F17 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD81267BB9C500FA7F17 /* ChatBubble.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		4E8CAD79267BB03C00FA7F17 /* ConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationCell.swift; sourceTree = "<group>"; };
 		4E8CAD7D267BB7E200FA7F17 /* MessageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
 		4E8CAD7F267BB88F00FA7F17 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		4E8CAD81267BB9C500FA7F17 /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				4E8CAD79267BB03C00FA7F17 /* ConversationCell.swift */,
 				4E8CAD7D267BB7E200FA7F17 /* MessageInputView.swift */,
 				4E8CAD7F267BB88F00FA7F17 /* ChatView.swift */,
+				4E8CAD81267BB9C500FA7F17 /* ChatBubble.swift */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				4E8CAD80267BB88F00FA7F17 /* ChatView.swift in Sources */,
 				4E8CAD78267BB02900FA7F17 /* ConversationsView.swift in Sources */,
 				4E8CAD5B267B90D900FA7F17 /* WickedTestApp.swift in Sources */,
+				4E8CAD82267BB9C500FA7F17 /* ChatBubble.swift in Sources */,
 				4E8CAD6F267B9A1900FA7F17 /* TweetCell.swift in Sources */,
 				4E8CAD73267BA7D000FA7F17 /* SearchBar.swift in Sources */,
 				4E8CAD75267BAB7100FA7F17 /* UserCell.swift in Sources */,
