@@ -52,6 +52,8 @@
 		4E8CAD59267B90D900FA7F17 /* WickedTest */ = {
 			isa = PBXGroup;
 			children = (
+				4E8CAD6A267B95E400FA7F17 /* ViewModels */,
+				4E8CAD69267B95E000FA7F17 /* Views */,
 				4E8CAD5A267B90D900FA7F17 /* WickedTestApp.swift */,
 				4E8CAD5C267B90D900FA7F17 /* ContentView.swift */,
 				4E8CAD5E267B90DB00FA7F17 /* Assets.xcassets */,
@@ -67,6 +69,20 @@
 				4E8CAD61267B90DB00FA7F17 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E8CAD69267B95E000FA7F17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E8CAD6A267B95E400FA7F17 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
