@@ -108,6 +108,7 @@
 		4E8CAD69267B95E000FA7F17 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4E8CAD92267CF0BC00FA7F17 /* Tweets */,
 				4E8CAD89267CE12B00FA7F17 /* Profile */,
 				4E8CAD76267BB01900FA7F17 /* Messages */,
 				4E8CAD5C267B90D900FA7F17 /* ContentView.swift */,
@@ -158,6 +159,13 @@
 				4E8CAD90267CE22F00FA7F17 /* FilterButtonView.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		4E8CAD92267CF0BC00FA7F17 /* Tweets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tweets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
