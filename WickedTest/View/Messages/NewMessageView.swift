@@ -1,5 +1,5 @@
 //
-//  SearchView.swift
+//  NewMessageView.swift
 //  WickedTest
 //
 //  Created by Joshua Basche on 6/17/21.
@@ -7,8 +7,10 @@
 
 import SwiftUI
 
-struct SearchView: View {
+struct NewMessageView: View {
   @State var searchText: String = ""
+  @Binding var show: Bool
+  @Binding var startChat: Bool
   
   var body: some View {
     ScrollView {
@@ -18,7 +20,10 @@ struct SearchView: View {
       VStack(alignment: .leading) {
         ForEach(0..<10) { _ in
           HStack { Spacer() }
-          NavigationLink(destination: UserProfileView()) {
+          Button(action: {
+            self.show.toggle()
+            self.startChat.toggle()
+          }) {
             UserCell()
           }
         }
@@ -26,10 +31,11 @@ struct SearchView: View {
       .padding(.leading)
     }
   }
+  
 }
 
-struct SearchView_Previews: PreviewProvider {
+struct NewMessageView_Previews: PreviewProvider {
   static var previews: some View {
-    SearchView()
+    NewMessageView(show: .constant(true), startChat: .constant(true))
   }
 }
