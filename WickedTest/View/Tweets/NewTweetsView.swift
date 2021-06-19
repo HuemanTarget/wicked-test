@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct NewTweetsView: View {
-  
+  @Environment(\.presentationMode) var presentationMode
+//  @Binding var isPresented: Bool
   
   var body: some View {
     NavigationView {
@@ -29,7 +30,8 @@ struct NewTweetsView: View {
         .padding()
         .navigationBarItems(leading:
                               Button(action: {
-                                
+//                                isPresented.toggle()
+                                presentationMode.wrappedValue.dismiss()
                               }) {
                                 Text("Cancel")
                               },

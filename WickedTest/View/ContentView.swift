@@ -13,7 +13,7 @@ struct ContentView: View {
       TabView {
         FeedView()
           .tabItem {
-            Image(systemName: "house")
+            Image(systemName: "homekit")
             Text("Home")
           }
         
