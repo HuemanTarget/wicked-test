@@ -30,6 +30,8 @@
 		4E8CAD91267CE22F00FA7F17 /* FilterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD90267CE22F00FA7F17 /* FilterButtonView.swift */; };
 		4E8CAD94267CF41700FA7F17 /* NewTweetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD93267CF41700FA7F17 /* NewTweetsView.swift */; };
 		4E8CAD982680EDBE00FA7F17 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD972680EDBE00FA7F17 /* TextArea.swift */; };
+		4E8CAD9B2680F6A700FA7F17 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD9A2680F6A700FA7F17 /* LoginView.swift */; };
+		4E8CAD9D2680F6AF00FA7F17 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD9C2680F6AF00FA7F17 /* RegistrationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		4E8CAD90267CE22F00FA7F17 /* FilterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButtonView.swift; sourceTree = "<group>"; };
 		4E8CAD93267CF41700FA7F17 /* NewTweetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetsView.swift; sourceTree = "<group>"; };
 		4E8CAD972680EDBE00FA7F17 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
+		4E8CAD9A2680F6A700FA7F17 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4E8CAD9C2680F6AF00FA7F17 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 		4E8CAD69267B95E000FA7F17 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4E8CAD992680F69A00FA7F17 /* Authentication */,
 				4E8CAD92267CF0BC00FA7F17 /* Tweets */,
 				4E8CAD89267CE12B00FA7F17 /* Profile */,
 				4E8CAD76267BB01900FA7F17 /* Messages */,
@@ -190,6 +195,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		4E8CAD992680F69A00FA7F17 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				4E8CAD9A2680F6A700FA7F17 /* LoginView.swift */,
+				4E8CAD9C2680F6AF00FA7F17 /* RegistrationView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -261,12 +275,14 @@
 			files = (
 				4E8CAD71267BA74100FA7F17 /* SearchView.swift in Sources */,
 				4E8CAD982680EDBE00FA7F17 /* TextArea.swift in Sources */,
+				4E8CAD9D2680F6AF00FA7F17 /* RegistrationView.swift in Sources */,
 				4E8CAD7E267BB7E200FA7F17 /* MessageInputView.swift in Sources */,
 				4E8CAD5D267B90D900FA7F17 /* ContentView.swift in Sources */,
 				4E8CAD94267CF41700FA7F17 /* NewTweetsView.swift in Sources */,
 				4E8CAD6D267B965A00FA7F17 /* FeedView.swift in Sources */,
 				4E8CAD8D267CE1EC00FA7F17 /* ProfileHeaderView.swift in Sources */,
 				4E8CAD80267BB88F00FA7F17 /* ChatView.swift in Sources */,
+				4E8CAD9B2680F6A700FA7F17 /* LoginView.swift in Sources */,
 				4E8CAD78267BB02900FA7F17 /* ConversationsView.swift in Sources */,
 				4E8CAD91267CE22F00FA7F17 /* FilterButtonView.swift in Sources */,
 				4E8CAD5B267B90D900FA7F17 /* WickedTestApp.swift in Sources */,
