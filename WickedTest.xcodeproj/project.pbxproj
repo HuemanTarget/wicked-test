@@ -34,6 +34,7 @@
 		4E8CAD9D2680F6AF00FA7F17 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD9C2680F6AF00FA7F17 /* RegistrationView.swift */; };
 		4E8CAD9F2680F83D00FA7F17 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD9E2680F83D00FA7F17 /* CustomTextField.swift */; };
 		4E8CADA12680FB7800FA7F17 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CADA02680FB7800FA7F17 /* CustomSecureField.swift */; };
+		4E8CADA32681114400FA7F17 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CADA22681114400FA7F17 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		4E8CAD9C2680F6AF00FA7F17 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		4E8CAD9E2680F83D00FA7F17 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		4E8CADA02680FB7800FA7F17 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		4E8CADA22681114400FA7F17 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 				4E8CAD972680EDBE00FA7F17 /* TextArea.swift */,
 				4E8CAD9E2680F83D00FA7F17 /* CustomTextField.swift */,
 				4E8CADA02680FB7800FA7F17 /* CustomSecureField.swift */,
+				4E8CADA22681114400FA7F17 /* ImagePicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				4E8CAD78267BB02900FA7F17 /* ConversationsView.swift in Sources */,
 				4E8CAD91267CE22F00FA7F17 /* FilterButtonView.swift in Sources */,
 				4E8CAD5B267B90D900FA7F17 /* WickedTestApp.swift in Sources */,
+				4E8CADA32681114400FA7F17 /* ImagePicker.swift in Sources */,
 				4E8CAD82267BB9C500FA7F17 /* ChatBubble.swift in Sources */,
 				4E8CAD6F267B9A1900FA7F17 /* TweetCell.swift in Sources */,
 				4E8CAD88267BC14700FA7F17 /* NewMessageView.swift in Sources */,

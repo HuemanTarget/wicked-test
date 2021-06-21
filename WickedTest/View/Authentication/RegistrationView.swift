@@ -14,18 +14,26 @@ struct RegistrationView: View {
   @State var password: String = ""
   @State var username: String = ""
   @State var fullname: String = ""
+  @State var showImagePicker: Bool = false
   
   var body: some View {
     ZStack {
       VStack {
-        Image("plus_photo")
-          .resizable()
-          .renderingMode(.template)
-          .scaledToFill()
-          .frame(width: 140, height: 140)
-          .padding(.top, 88)
-          .padding(.bottom, 16)
-          .foregroundColor(.white)
+        Button(action: {
+          showImagePicker.toggle()
+        }) {
+          Image("plus_photo")
+            .resizable()
+            .renderingMode(.template)
+            .scaledToFill()
+            .frame(width: 140, height: 140)
+            .padding(.top, 88)
+            .padding(.bottom, 16)
+            .foregroundColor(.white)
+        }
+        .sheet(isPresented: $showImagePicker, content: {
+          Text("Image Picker")
+        })
         
         VStack(spacing: 20) {
           CustomTextField(text: $fullname, placeholder: Text("Full Name"), imageName: "person")
