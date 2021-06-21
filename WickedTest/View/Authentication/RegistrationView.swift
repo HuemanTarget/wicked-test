@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct RegistrationView: View {
+  @Environment(\.presentationMode) var presentationMode
+  
   @State var email: String = ""
   @State var password: String = ""
   @State var username: String = ""
-  @State var name: String = ""
+  @State var fullname: String = ""
   
   var body: some View {
     ZStack {
@@ -24,7 +26,7 @@ struct RegistrationView: View {
           .padding(.bottom, 32)
         
         VStack(spacing: 20) {
-          CustomTextField(text: $name, placeholder: Text("Full Name"), imageName: "person")
+          CustomTextField(text: $fullname, placeholder: Text("Full Name"), imageName: "person")
             .padding()
             .background(Color(.init(white: 1, alpha: 0.15)))
             .cornerRadius(10)
@@ -50,21 +52,6 @@ struct RegistrationView: View {
         }
         .padding(.horizontal, 32)
         
-//        HStack {
-//          Spacer()
-//
-//          Button(action: {
-//
-//          }) {
-//            Text("Forgot Password?")
-//              .font(.footnote)
-//              .bold()
-//              .foregroundColor(.white)
-//              .padding(.top, 16)
-//              .padding(.trailing, 32)
-//          }
-//        }
-        
         Button(action: {
           
         }) {
@@ -79,14 +66,21 @@ struct RegistrationView: View {
         
         Spacer()
         
-        HStack {
-          Text("Already have an account?")
-            .font(.system(size: 14))
-          Text("Sign In")
-            .font(.system(size: 14, weight: .semibold))
+        
+        Button(action: {
+          presentationMode.wrappedValue.dismiss()
+        }) {
+          HStack {
+            Text("Already have an account?")
+              .font(.system(size: 14))
+            Text("Sign In")
+              .font(.system(size: 14, weight: .semibold))
+          }
+          .foregroundColor(.white)
+          .padding(.bottom, 40)
         }
-        .foregroundColor(.white)
-        .padding(.bottom, 40)
+        
+        
       }
     }
     .background(Color(#colorLiteral(red: 0.1170291379, green: 0.6328371167, blue: 0.951066196, alpha: 1)))
