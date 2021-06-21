@@ -29,6 +29,7 @@
 		4E8CAD8F267CE20600FA7F17 /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD8E267CE20600FA7F17 /* ProfileActionButtonView.swift */; };
 		4E8CAD91267CE22F00FA7F17 /* FilterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD90267CE22F00FA7F17 /* FilterButtonView.swift */; };
 		4E8CAD94267CF41700FA7F17 /* NewTweetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD93267CF41700FA7F17 /* NewTweetsView.swift */; };
+		4E8CAD982680EDBE00FA7F17 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD972680EDBE00FA7F17 /* TextArea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		4E8CAD8E267CE20600FA7F17 /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
 		4E8CAD90267CE22F00FA7F17 /* FilterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButtonView.swift; sourceTree = "<group>"; };
 		4E8CAD93267CF41700FA7F17 /* NewTweetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetsView.swift; sourceTree = "<group>"; };
+		4E8CAD972680EDBE00FA7F17 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		4E8CAD59267B90D900FA7F17 /* WickedTest */ = {
 			isa = PBXGroup;
 			children = (
+				4E8CAD952680ED3D00FA7F17 /* Utilities */,
 				4E8CAD6B267B962500FA7F17 /* Model */,
 				4E8CAD6A267B95E400FA7F17 /* ViewModels */,
 				4E8CAD69267B95E000FA7F17 /* View */,
@@ -171,6 +174,22 @@
 			path = Tweets;
 			sourceTree = "<group>";
 		};
+		4E8CAD952680ED3D00FA7F17 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4E8CAD962680EDB000FA7F17 /* Views */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4E8CAD962680EDB000FA7F17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E8CAD972680EDBE00FA7F17 /* TextArea.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -241,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E8CAD71267BA74100FA7F17 /* SearchView.swift in Sources */,
+				4E8CAD982680EDBE00FA7F17 /* TextArea.swift in Sources */,
 				4E8CAD7E267BB7E200FA7F17 /* MessageInputView.swift in Sources */,
 				4E8CAD5D267B90D900FA7F17 /* ContentView.swift in Sources */,
 				4E8CAD94267CF41700FA7F17 /* NewTweetsView.swift in Sources */,
