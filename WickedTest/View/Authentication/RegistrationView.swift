@@ -15,6 +15,13 @@ struct RegistrationView: View {
   @State var username: String = ""
   @State var fullname: String = ""
   @State var showImagePicker: Bool = false
+  @State var selectedUIImage: UIImage?
+  @State var image: Image?
+  
+  func loadImage() {
+    guard let selectedImage = selectedUIImage else { return }
+    image = Image(uiImage: selectedImage)
+  }
   
   var body: some View {
     ZStack {
@@ -22,17 +29,30 @@ struct RegistrationView: View {
         Button(action: {
           showImagePicker.toggle()
         }) {
-          Image("plus_photo")
-            .resizable()
-            .renderingMode(.template)
-            .scaledToFill()
-            .frame(width: 140, height: 140)
-            .padding(.top, 88)
-            .padding(.bottom, 16)
-            .foregroundColor(.white)
+          ZStack {
+            if let image = image {
+              image
+                .resizable()
+                .scaledToFill()
+                .frame(width: 140, height: 140)
+                .clipped()
+                .cornerRadius(70)
+                .padding(.top, 88)
+                .padding(.bottom, 16)
+            } else {
+              Image("plus_photo")
+                .resizable()
+                .renderingMode(.template)
+                .scaledToFill()
+                .frame(width: 140, height: 140)
+                .padding(.top, 88)
+                .padding(.bottom, 16)
+                .foregroundColor(.white)
+            }
+          }
         }
-        .sheet(isPresented: $showImagePicker, content: {
-          Text("Image Picker")
+        .sheet(isPresented: $showImagePicker, onDismiss: loadImage, content: {
+          ImagePicker(image: $selectedUIImage)
         })
         
         VStack(spacing: 20) {
