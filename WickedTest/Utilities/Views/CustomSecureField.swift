@@ -1,5 +1,5 @@
 //
-//  CustomTextField.swift
+//  CustomSecureField.swift
 //  WickedTest
 //
 //  Created by Joshua Basche on 6/21/21.
@@ -7,10 +7,9 @@
 
 import SwiftUI
 
-struct CustomTextField: View {
+struct CustomSecureField: View {
   @Binding var text: String
   let placeholder: Text
-  let imageName: String
   
   var body: some View {
     ZStack(alignment: .leading) {
@@ -21,20 +20,21 @@ struct CustomTextField: View {
       }
       
       HStack(spacing: 16) {
-        Image(systemName: imageName)
+        Image(systemName: "lock")
           .resizable()
           .scaledToFit()
           .frame(width: 20, height: 20)
           .foregroundColor(.white)
         
-        TextField("", text: $text)
+        SecureField("", text: $text)
+
       }
     }
   }
 }
 
-struct CustomTextField_Previews: PreviewProvider {
+struct CustomSecureField_Previews: PreviewProvider {
   static var previews: some View {
-    CustomTextField(text: .constant(""), placeholder: Text("Email"), imageName: "envelope")
+    CustomSecureField(text: .constant(""), placeholder: Text("Password"))
   }
 }

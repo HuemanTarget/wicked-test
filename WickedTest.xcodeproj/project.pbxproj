@@ -33,6 +33,7 @@
 		4E8CAD9B2680F6A700FA7F17 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD9A2680F6A700FA7F17 /* LoginView.swift */; };
 		4E8CAD9D2680F6AF00FA7F17 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD9C2680F6AF00FA7F17 /* RegistrationView.swift */; };
 		4E8CAD9F2680F83D00FA7F17 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CAD9E2680F83D00FA7F17 /* CustomTextField.swift */; };
+		4E8CADA12680FB7800FA7F17 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CADA02680FB7800FA7F17 /* CustomSecureField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		4E8CAD9A2680F6A700FA7F17 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		4E8CAD9C2680F6AF00FA7F17 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		4E8CAD9E2680F83D00FA7F17 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		4E8CADA02680FB7800FA7F17 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 			children = (
 				4E8CAD972680EDBE00FA7F17 /* TextArea.swift */,
 				4E8CAD9E2680F83D00FA7F17 /* CustomTextField.swift */,
+				4E8CADA02680FB7800FA7F17 /* CustomSecureField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				4E8CAD8F267CE20600FA7F17 /* ProfileActionButtonView.swift in Sources */,
 				4E8CAD9F2680F83D00FA7F17 /* CustomTextField.swift in Sources */,
 				4E8CAD75267BAB7100FA7F17 /* UserCell.swift in Sources */,
+				4E8CADA12680FB7800FA7F17 /* CustomSecureField.swift in Sources */,
 				4E8CAD86267BC05C00FA7F17 /* MessageView.swift in Sources */,
 				4E8CAD7A267BB03C00FA7F17 /* ConversationCell.swift in Sources */,
 			);
