@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct LoginView: View {
+  @State var email: String = ""
+  @State var password: String = ""
+  
   var body: some View {
     ZStack {
       VStack {
@@ -16,6 +19,22 @@ struct LoginView: View {
           .scaledToFill()
           .frame(width: 220, height: 100)
           .padding(.top, 88)
+        
+        VStack {
+          CustomTextField(text: $email, placeholder: Text("Email"))
+            .padding()
+            .background(Color(.init(white: 1, alpha: 0.15)))
+            .cornerRadius(10)
+            .padding()
+            .foregroundColor(.white)
+          
+          CustomTextField(text: $password, placeholder: Text("Password"))
+            .padding()
+            .background(Color(.init(white: 1, alpha: 0.15)))
+            .cornerRadius(10)
+            .padding()
+            .foregroundColor(.white)
+        }
         
         Spacer()
       }
