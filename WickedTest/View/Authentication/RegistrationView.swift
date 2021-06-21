@@ -18,12 +18,14 @@ struct RegistrationView: View {
   var body: some View {
     ZStack {
       VStack {
-        Image("TwitterLogo")
+        Image("plus_photo")
           .resizable()
+          .renderingMode(.template)
           .scaledToFill()
-          .frame(width: 220, height: 100)
+          .frame(width: 140, height: 140)
           .padding(.top, 88)
-          .padding(.bottom, 32)
+          .padding(.bottom, 16)
+          .foregroundColor(.white)
         
         VStack(spacing: 20) {
           CustomTextField(text: $fullname, placeholder: Text("Full Name"), imageName: "person")
