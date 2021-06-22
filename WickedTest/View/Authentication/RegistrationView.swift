@@ -9,6 +9,7 @@ import SwiftUI
 
 struct RegistrationView: View {
   @Environment(\.presentationMode) var presentationMode
+  @ObservedObject var authVM = AuthViewModel()
   
   @State var email: String = ""
   @State var password: String = ""
@@ -83,7 +84,11 @@ struct RegistrationView: View {
         .padding(.horizontal, 32)
         
         Button(action: {
+          guard let image = selectedUIImage else { return }
           
+          authVM.registerUser(email: email, password: password, username: username, fullname: fullname, profileImage: image)
+          
+          presentationMode.wrappedValue.dismiss()
         }) {
           Text("Sign Up")
             .font(.headline)

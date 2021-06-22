@@ -45,6 +45,7 @@
 		4E8CADB42682265500FA7F17 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 4E8CADB32682265500FA7F17 /* FirebaseFunctions */; };
 		4E8CADB62682265500FA7F17 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4E8CADB52682265500FA7F17 /* FirebaseAuth */; };
 		4E8CADB82682265500FA7F17 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4E8CADB72682265500FA7F17 /* FirebaseCrashlytics */; };
+		4E8CADBA268229AC00FA7F17 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CADB9268229AC00FA7F17 /* AuthViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		4E8CADA02680FB7800FA7F17 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		4E8CADA22681114400FA7F17 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		4E8CADA42682252900FA7F17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4E8CADB9268229AC00FA7F17 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 		4E8CAD6A267B95E400FA7F17 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				4E8CADB9268229AC00FA7F17 /* AuthViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				4E8CAD82267BB9C500FA7F17 /* ChatBubble.swift in Sources */,
 				4E8CAD6F267B9A1900FA7F17 /* TweetCell.swift in Sources */,
 				4E8CAD88267BC14700FA7F17 /* NewMessageView.swift in Sources */,
+				4E8CADBA268229AC00FA7F17 /* AuthViewModel.swift in Sources */,
 				4E8CAD84267BBC2A00FA7F17 /* Message.swift in Sources */,
 				4E8CAD8B267CE14000FA7F17 /* UserProfileView.swift in Sources */,
 				4E8CAD73267BA7D000FA7F17 /* SearchBar.swift in Sources */,
