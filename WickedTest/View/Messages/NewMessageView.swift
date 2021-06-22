@@ -9,6 +9,7 @@ import SwiftUI
 
 struct NewMessageView: View {
   @State var searchText: String = ""
+  @ObservedObject var searchVM = SearchViewModel()
   @Binding var show: Bool
   @Binding var startChat: Bool
   
@@ -18,13 +19,13 @@ struct NewMessageView: View {
         .padding()
       
       VStack(alignment: .leading) {
-        ForEach(0..<10) { _ in
+        ForEach(searchVM.users) { user in
           HStack { Spacer() }
           Button(action: {
             self.show.toggle()
             self.startChat.toggle()
           }) {
-            UserCell()
+            UserCell(user: user)
           }
         }
       }
