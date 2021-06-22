@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct ProfileActionButtonView: View {
-  let isCurrentUser: Bool
+  @Binding var isFollowed: Bool
+  
+  let profileVM: ProfileViewModel
+
   
   var body: some View {
     
     VStack {
-      if isCurrentUser {
+      if profileVM.user.isCurrentUser {
         Button(action: {
         
       }) {
@@ -26,9 +29,9 @@ struct ProfileActionButtonView: View {
       } else {
         HStack {
           Button(action: {
-            
+            isFollowed ? profileVM.unfollow() : profileVM.follow()
           }) {
-            Text("Follow")
+            Text(isFollowed ? "Following" : "Follow")
               .frame(width: 180, height: 40)
               .background(Color.blue)
               .foregroundColor(.white)
@@ -51,8 +54,8 @@ struct ProfileActionButtonView: View {
   }
 }
 
-struct ProfileActionButtonView_Previews: PreviewProvider {
-  static var previews: some View {
-    ProfileActionButtonView(isCurrentUser: false)
-  }
-}
+//struct ProfileActionButtonView_Previews: PreviewProvider {
+//  static var previews: some View {
+//    ProfileActionButtonView(isCurrentUser: false)
+//  }
+//}

@@ -50,6 +50,7 @@
 		4E8CADBF2682505700FA7F17 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4E8CADBE2682505700FA7F17 /* Kingfisher */; };
 		4E8CADC1268250E700FA7F17 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CADC0268250E700FA7F17 /* SearchViewModel.swift */; };
 		4E8CADC32682521800FA7F17 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CADC22682521800FA7F17 /* Constants.swift */; };
+		4EB7AE9826827707008F413E /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7AE9726827707008F413E /* ProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		4E8CADBB268243C800FA7F17 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4E8CADC0268250E700FA7F17 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		4E8CADC22682521800FA7F17 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4EB7AE9726827707008F413E /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			children = (
 				4E8CADB9268229AC00FA7F17 /* AuthViewModel.swift */,
 				4E8CADC0268250E700FA7F17 /* SearchViewModel.swift */,
+				4EB7AE9726827707008F413E /* ProfileViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				4E8CAD80267BB88F00FA7F17 /* ChatView.swift in Sources */,
 				4E8CAD9B2680F6A700FA7F17 /* LoginView.swift in Sources */,
 				4E8CAD78267BB02900FA7F17 /* ConversationsView.swift in Sources */,
+				4EB7AE9826827707008F413E /* ProfileViewModel.swift in Sources */,
 				4E8CAD91267CE22F00FA7F17 /* FilterButtonView.swift in Sources */,
 				4E8CAD5B267B90D900FA7F17 /* WickedTestApp.swift in Sources */,
 				4E8CADA32681114400FA7F17 /* ImagePicker.swift in Sources */,
