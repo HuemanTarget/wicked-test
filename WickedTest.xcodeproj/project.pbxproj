@@ -46,6 +46,7 @@
 		4E8CADB62682265500FA7F17 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4E8CADB52682265500FA7F17 /* FirebaseAuth */; };
 		4E8CADB82682265500FA7F17 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4E8CADB72682265500FA7F17 /* FirebaseCrashlytics */; };
 		4E8CADBA268229AC00FA7F17 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CADB9268229AC00FA7F17 /* AuthViewModel.swift */; };
+		4E8CADBC268243C800FA7F17 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CADBB268243C800FA7F17 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		4E8CADA22681114400FA7F17 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		4E8CADA42682252900FA7F17 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4E8CADB9268229AC00FA7F17 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		4E8CADBB268243C800FA7F17 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				4E8CAD83267BBC2A00FA7F17 /* Message.swift */,
+				4E8CADBB268243C800FA7F17 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				4E8CADBA268229AC00FA7F17 /* AuthViewModel.swift in Sources */,
 				4E8CAD84267BBC2A00FA7F17 /* Message.swift in Sources */,
 				4E8CAD8B267CE14000FA7F17 /* UserProfileView.swift in Sources */,
+				4E8CADBC268243C800FA7F17 /* User.swift in Sources */,
 				4E8CAD73267BA7D000FA7F17 /* SearchBar.swift in Sources */,
 				4E8CAD8F267CE20600FA7F17 /* ProfileActionButtonView.swift in Sources */,
 				4E8CAD9F2680F83D00FA7F17 /* CustomTextField.swift in Sources */,

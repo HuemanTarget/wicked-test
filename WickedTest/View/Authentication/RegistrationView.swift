@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RegistrationView: View {
   @Environment(\.presentationMode) var presentationMode
-  @ObservedObject var authVM = AuthViewModel()
+  @EnvironmentObject var authVM: AuthViewModel
   
   @State var email: String = ""
   @State var password: String = ""
@@ -88,7 +88,7 @@ struct RegistrationView: View {
           
           authVM.registerUser(email: email, password: password, username: username, fullname: fullname, profileImage: image)
           
-          presentationMode.wrappedValue.dismiss()
+//          presentationMode.wrappedValue.dismiss()
         }) {
           Text("Sign Up")
             .font(.headline)
