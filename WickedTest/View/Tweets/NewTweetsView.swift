@@ -41,7 +41,7 @@ struct NewTweetsView: View {
                                 Text("Cancel")
                               },
                             trailing: Button(action: {
-                              uploadTweetVM.uploadTweet()
+                              uploadTweetVM.uploadTweet(caption: captionText)
                             }) {
                               Text("Tweet")
                                 .padding(.horizontal)
