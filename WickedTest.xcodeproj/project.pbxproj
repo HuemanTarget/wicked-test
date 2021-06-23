@@ -50,6 +50,8 @@
 		4EA96E2D26838B6700E6C488 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4EA96E2C26838B6700E6C488 /* FirebaseAuth */; };
 		4EA96E3026838BDE00E6C488 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4EA96E2F26838BDE00E6C488 /* Kingfisher */; };
 		4EA96E322683982A00E6C488 /* UploadTweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA96E312683982A00E6C488 /* UploadTweetViewModel.swift */; };
+		4EA96E3426839F5D00E6C488 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA96E3326839F5D00E6C488 /* FeedViewModel.swift */; };
+		4EA96E3626839F8A00E6C488 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA96E3526839F8A00E6C488 /* Tweet.swift */; };
 		4EB7AE9826827707008F413E /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7AE9726827707008F413E /* ProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +92,8 @@
 		4E8CADC0268250E700FA7F17 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		4E8CADC22682521800FA7F17 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4EA96E312683982A00E6C488 /* UploadTweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetViewModel.swift; sourceTree = "<group>"; };
+		4EA96E3326839F5D00E6C488 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		4EA96E3526839F8A00E6C488 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		4EB7AE9726827707008F413E /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -177,6 +181,7 @@
 				4E8CADC0268250E700FA7F17 /* SearchViewModel.swift */,
 				4EB7AE9726827707008F413E /* ProfileViewModel.swift */,
 				4EA96E312683982A00E6C488 /* UploadTweetViewModel.swift */,
+				4EA96E3326839F5D00E6C488 /* FeedViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 			children = (
 				4E8CAD83267BBC2A00FA7F17 /* Message.swift */,
 				4E8CADBB268243C800FA7F17 /* User.swift */,
+				4EA96E3526839F8A00E6C488 /* Tweet.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -342,6 +348,8 @@
 				4E8CAD9D2680F6AF00FA7F17 /* RegistrationView.swift in Sources */,
 				4E8CAD7E267BB7E200FA7F17 /* MessageInputView.swift in Sources */,
 				4E8CAD5D267B90D900FA7F17 /* ContentView.swift in Sources */,
+				4EA96E3626839F8A00E6C488 /* Tweet.swift in Sources */,
+				4EA96E3426839F5D00E6C488 /* FeedViewModel.swift in Sources */,
 				4E8CADC32682521800FA7F17 /* Constants.swift in Sources */,
 				4E8CAD94267CF41700FA7F17 /* NewTweetsView.swift in Sources */,
 				4E8CAD6D267B965A00FA7F17 /* FeedView.swift in Sources */,
