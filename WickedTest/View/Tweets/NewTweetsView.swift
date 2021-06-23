@@ -14,6 +14,7 @@ struct NewTweetsView: View {
   @ObservedObject var uploadTweetVM = UploadTweetViewModel()
 //  @Binding var isPresented: Bool
   
+  
   var body: some View {
     NavigationView {
       VStack {
@@ -42,6 +43,7 @@ struct NewTweetsView: View {
                               },
                             trailing: Button(action: {
                               uploadTweetVM.uploadTweet(caption: captionText)
+                              presentationMode.wrappedValue.dismiss()
                             }) {
                               Text("Tweet")
                                 .padding(.horizontal)
@@ -56,8 +58,8 @@ struct NewTweetsView: View {
   }
 }
 
-struct NewTweetsView_Previews: PreviewProvider {
-  static var previews: some View {
-    NewTweetsView()
-  }
-}
+//struct NewTweetsView_Previews: PreviewProvider {
+//  static var previews: some View {
+//    NewTweetsView()
+//  }
+//}
