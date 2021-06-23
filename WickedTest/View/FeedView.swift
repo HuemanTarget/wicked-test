@@ -23,8 +23,7 @@ struct FeedView: View {
       }
       
       Button(action: {
-//        isShowingNewTweetView.toggle()
-        authVM.signOut()
+        isShowingNewTweetView.toggle()
       }) {
         Image("Tweet")
           .resizable()
