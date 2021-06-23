@@ -49,6 +49,7 @@
 		4EA96E2B26838B6700E6C488 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 4EA96E2A26838B6700E6C488 /* FirebaseFunctions */; };
 		4EA96E2D26838B6700E6C488 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4EA96E2C26838B6700E6C488 /* FirebaseAuth */; };
 		4EA96E3026838BDE00E6C488 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4EA96E2F26838BDE00E6C488 /* Kingfisher */; };
+		4EA96E322683982A00E6C488 /* UploadTweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA96E312683982A00E6C488 /* UploadTweetViewModel.swift */; };
 		4EB7AE9826827707008F413E /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7AE9726827707008F413E /* ProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +89,7 @@
 		4E8CADBB268243C800FA7F17 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4E8CADC0268250E700FA7F17 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		4E8CADC22682521800FA7F17 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4EA96E312683982A00E6C488 /* UploadTweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetViewModel.swift; sourceTree = "<group>"; };
 		4EB7AE9726827707008F413E /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,6 +176,7 @@
 				4E8CADB9268229AC00FA7F17 /* AuthViewModel.swift */,
 				4E8CADC0268250E700FA7F17 /* SearchViewModel.swift */,
 				4EB7AE9726827707008F413E /* ProfileViewModel.swift */,
+				4EA96E312683982A00E6C488 /* UploadTweetViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				4EB7AE9826827707008F413E /* ProfileViewModel.swift in Sources */,
 				4E8CAD91267CE22F00FA7F17 /* FilterButtonView.swift in Sources */,
 				4E8CAD5B267B90D900FA7F17 /* WickedTestApp.swift in Sources */,
+				4EA96E322683982A00E6C488 /* UploadTweetViewModel.swift in Sources */,
 				4E8CADA32681114400FA7F17 /* ImagePicker.swift in Sources */,
 				4E8CAD82267BB9C500FA7F17 /* ChatBubble.swift in Sources */,
 				4E8CAD6F267B9A1900FA7F17 /* TweetCell.swift in Sources */,
