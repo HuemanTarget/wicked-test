@@ -52,6 +52,7 @@
 		4EA96E322683982A00E6C488 /* UploadTweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA96E312683982A00E6C488 /* UploadTweetViewModel.swift */; };
 		4EA96E3426839F5D00E6C488 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA96E3326839F5D00E6C488 /* FeedViewModel.swift */; };
 		4EA96E3626839F8A00E6C488 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA96E3526839F8A00E6C488 /* Tweet.swift */; };
+		4EA96E382683A4B400E6C488 /* TweetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA96E372683A4B400E6C488 /* TweetDetailView.swift */; };
 		4EB7AE9826827707008F413E /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7AE9726827707008F413E /* ProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +95,7 @@
 		4EA96E312683982A00E6C488 /* UploadTweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTweetViewModel.swift; sourceTree = "<group>"; };
 		4EA96E3326839F5D00E6C488 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		4EA96E3526839F8A00E6C488 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		4EA96E372683A4B400E6C488 /* TweetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetDetailView.swift; sourceTree = "<group>"; };
 		4EB7AE9726827707008F413E /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -225,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				4E8CAD93267CF41700FA7F17 /* NewTweetsView.swift */,
+				4EA96E372683A4B400E6C488 /* TweetDetailView.swift */,
 			);
 			path = Tweets;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				4E8CAD82267BB9C500FA7F17 /* ChatBubble.swift in Sources */,
 				4E8CAD6F267B9A1900FA7F17 /* TweetCell.swift in Sources */,
 				4E8CAD88267BC14700FA7F17 /* NewMessageView.swift in Sources */,
+				4EA96E382683A4B400E6C488 /* TweetDetailView.swift in Sources */,
 				4E8CADBA268229AC00FA7F17 /* AuthViewModel.swift in Sources */,
 				4E8CADC1268250E700FA7F17 /* SearchViewModel.swift in Sources */,
 				4E8CAD84267BBC2A00FA7F17 /* Message.swift in Sources */,

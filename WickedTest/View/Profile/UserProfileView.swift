@@ -23,8 +23,8 @@ struct UserProfileView: View {
           .padding()
         
         ForEach(0..<9) { tweet in
-          TweetCell()
-            .padding(40)
+//          TweetCell()
+//            .padding(40)
         }
       }
       
